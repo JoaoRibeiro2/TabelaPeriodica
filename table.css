@@ -1,34 +1,143 @@
-body{
-	background: #060518;
+*{
+	
 	padding: 0;
 	margin: 0;
 	border: none;
 }
+body{
+	padding: 0;
+	margin: 0;
+	background: #060518;
+}
+
+header{
+	width: 100%;
+	background: red;
+	height: 100px;
+	font: italic 15pt 'Arial';
+	padding-top: 20px;
+}
+header h1 {
+	margin-left: 130px;
+}
+.sessao{
+	width: 100%;
+	text-align: center;
+	padding: 10px auto;
+	margin-bottom: 30px;
+}
+
+.paragrafo1{
+	/*margin: 10px auto;*/
+	color: white;
+	width: 1500px;
+	margin: 15px auto;
+	text-align: start;
+	font: normal 20px 'Times New Roman';
+	
+}
+.paragrafo1 p{
+	padding: 5px;
+	/*text-align: start;*/
+}
+h2{
+	margin-top: 15px;
+	color: white;
+	font: normal 30pt 'Times New Roman';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tabela{
-	width: 100%;
+	width: 90%;
+	margin: 15px auto;
+	border: 1px solid #fff;
 
 }
+.linhas{
+	width: 30px;
+	background: rgba(0, 1, 5, 0.904);
+}
+.num-lin{
+	color: #fff;
+	font: normal 10pt 'Arial';
+}
+.coluna{
+	height: 30px;
+}
+.numeracao{
+	color: #fff;
+}
+
+
 table{
 	margin: 19px auto;
 }
 tr{
-	height: 70px;
+	height: 75px;
+	border: none;
 	/*max-height: 50px;*/
 }
 
-
+.col:hover{
+	border: 3px solid red;
+}
 td{
-	min-width: 70px;
-	max-width: 70px;
+	/*min-width: 70px;*/
+	border: none;
+	max-width: 75px;
+}
+
+
+
+footer{
+	background: gray;
+	width: 100%;
+	height: 70px;
+}
+
+
+.col{
+	background: #000;
+	width: 75px;
+}
+.col:hover{
+	background: #fff;
+}
+.linha:hover{
+	background: #fff;
+	opacity: 100%;
+}
+.colspan{
+	background: #060518;
+}
+.colspan:hover{
+	background: #060518;
+
 }
 
 .col{
-	background: white;
+	/*background: white;*/
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 200px;
+	padding: 0;
+	
 }
+
+
 .col-57-71{
 	font-size: 12px;
 
@@ -66,5 +175,12 @@ td{
 }
 .act{
 	background: rgb(251, 134, 255);
+}
+
+
+.simbolo{
+	font: normal 10pt 'Arial';
+	font-weight: 900;
+	margin-left: 5px;
 }
 
